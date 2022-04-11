@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "typescript": "^4.6.3"
+  },
+  "workspaces": {
+    "packages": ["packages/*"],
+    "nohoist": ["**/react-native", "**/react-native/**"]
+  }
+}

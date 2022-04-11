@@ -1,0 +1,23 @@
+{
+  "name": "pkgA",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.5.0",
+    "react-native": "0.57.0",
+    "react-native-linear-gradient": "^2.5.4"
+  },
+  "devDependencies": {
+    "babel-jest": "27.5.1",
+    "jest": "27.5.1",
+    "metro-react-native-babel-preset": "0.70.1",
+    "react-test-renderer": "16.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
